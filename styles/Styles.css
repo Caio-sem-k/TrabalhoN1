@@ -1,0 +1,119 @@
+body{
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    max-width: auto;
+    margin: 6%;
+    padding: 20px;
+    background-image: url(../Img/black-elegant-background-with-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nome1{
+    margin: 25px;
+    color: blueviolet;
+}
+
+li{
+    display: inline-block;
+    margin: 25px;
+    font-family: sans-serif;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: blueviolet
+}
+
+p{
+    font-weight: bold;
+    font-size: 15,7px;
+    margin: 20px;
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-align: initial;
+    flex-direction: column;
+}
+
+.NT{
+    font-size: 18px;
+    margin: 20px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.N2{
+    font-size: 15px;
+}
+
+input{
+     width: auto;
+     height: auto;
+}
+
+.Nome{
+    border-color:blueviolet
+}
+
+.E-mail{
+    border-color: blueviolet
+}
+
+.Enviar{
+    border-color: blueviolet;
+    cursor: pointer;
+    background-color: blueviolet;
+    height: 50%;
+    width: 50%;
+    font-family: sans-serif
+}
+
+.Nome:hover{
+    background-color: rgb(201, 201, 201)
+}
+
+.E-mail:hover{
+    background-color: rgb(201, 201, 201)
+}
+
+.Enviar:hover{
+    background-color: rgb(111, 7, 207)
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
